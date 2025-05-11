@@ -5,7 +5,7 @@ from functools import lru_cache
 import gradio as gr
 
 # --- Configuration ---
-MONGO_URI = "mongodb+srv://shiro:u3fsuO7uesY7ZTkc@alphamh.4tgem.mongodb.net/?retryWrites=true&w=majority&appName=AlphaMH"
+MONGO_URI = ""
 DATABASE_NAME = "MHneetData2024"
 COLLECTION_NAME = "neetData2024"
 DEFAULT_IGNORED_FIELDS = {'_id', 'internal_metadata', 'audit_trail'}
